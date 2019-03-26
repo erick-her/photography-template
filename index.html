@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="assets/css/material-icons.css">
   <!--Custom CSS-->
   <link rel="stylesheet" href="assets/css/custom.css">
+  <!--Font Awesome Icon library-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <title>Photography Template</title>
 </head>
@@ -19,9 +21,9 @@
   <!--Header-->
   <header>
     <!--Navbar-->
-    <ul class="collapsible">
+    <ul class="collapsible hide-on-small-only">
       <li>
-        <div class="collapsible-header"><i class="material-icons">menu</i>Photography Template</div>
+        <div class="collapsible-header"><i class="material-icons">expand_more</i>Photography Template</div>
         <div class="collapsible-body">
           <div class="container">
             <div class="row">
@@ -46,12 +48,13 @@
     </ul>
     <!--Parallax-->
     <div class="parallax-container valign-wrapper">
+      <a href="#" data-target="slide-out" class=" sidenav-trigger btn btn-floating btn-small waves-effect waves-red white hide-on-med-and-up"><i class="material-icons red-text">arrow_forward</i></a>
       <div class="container center-align">
         <h3 class="red-text">Photography Template</h3>
         <p class="flow-text white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum, quis, corporis optio amet inventore recusandae. Nemo rem ipsum ut minus error, ipsa explicabo vitae dicta. Aspernatur eligendi accusantium vitae.</p>
-        <a href="#" class="btn btn-large red accent-2 waves-effect waves-light">Complete gallery</a>
+        <a class="btn btn-large red accent-2 waves-effect waves-light"><i class="material-icons left">photo</i>Complete gallery</a>
       </div>
-      <div class="parallax"><img src="assets/img/desk.jpg"></div>
+      <div class="parallax"><img src="assets/img/header_background.jpg"></div>
     </div>
   </header>
 
@@ -64,6 +67,27 @@
   <footer>
 
   </footer>
+
+  <!--Sidenav-->
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img class="responsive-img" src="assets/img/sidenav_background.jpg">
+        </div>
+        <img class="circle" src="assets/img/profile_pic.jpeg">
+        <span class="white-text name">Get in touch...</span>
+        <a href="#"><span class="red-text">email@example.com</span></a>
+      </div>
+    </li>
+    <li><a class="subheader red-text">About</a></li>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus adipisci illum labore necessitatibus sequi, pariatur, veniam numquam corporis ipsam, assumenda odit repellat enim incidunt optio inventore. Cupiditate modi vitae error!</p>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader red-text">Contact</a></li>
+    <li><a class="waves-effect" href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+    <li><a class="waves-effect" href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+    <li><a class="waves-effect" href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+  </ul>
 
   <!--Jquery-->
   <script src="assets/js/jquery.min.js"></script>

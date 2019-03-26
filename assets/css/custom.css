@@ -1,5 +1,23 @@
+/**Importing font**/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /**Overriding margin style to collapsible component**/
 .collapsible {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+/**Overriding margin style to sidenav button**/
+.btn-floating {
+  margin-left: 5px;
+}
+
+/**Padding in about section in sidenav**/
+#slide-out p{
+  padding-left: 30px;
+  padding-right: 10px;
 }
