@@ -6,3 +6,6 @@ $('.collapsible').collapsible();
 
 // Call to sidenav function, materialize
 $('.sidenav').sidenav();
+
+// Call to materialboxed function, materialize
+$('.materialboxed').materialbox();
